@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-# SPDX-FilecopyrightText: 2022 Sho Konosiu
+
 import sys
 
 ans = 0
@@ -11,3 +11,4 @@ for line in sys.stdin:
         ans += float(line)
 
 print(ans)
+
