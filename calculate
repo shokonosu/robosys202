@@ -2,7 +2,7 @@
 # SPDX-FileCopyrightText: 2022 Sho konosu
 # SPDX-License-Identifier: BSD-3-Clause
 
-#優先順位による計算のプログラム#
+#優先順位による計算と6の階乗を求めるプログラム#
 
 import sys
 import math
