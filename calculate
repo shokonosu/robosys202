@@ -1,0 +1,15 @@
+#!/usr/bin/python3
+# SPDX-FileCopyrightText: 2022 Sho konosu
+# SPDX-License-Identifier: BSD-3-Clause
+
+#優先順位による計算のプログラム#
+
+import sys
+import math
+x = 50 + 3 * 2
+print(x)
+
+y = (25 / 5) - 4
+print(y)
+
+print(math.factorial(6))

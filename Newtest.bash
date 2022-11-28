@@ -3,34 +3,27 @@
 # SPDX-License-Identifier: BSD-3-Clause
 
 ng () {
-      echo NG at line $1
-      res=1
+echo NG at Line $1
+res=1
 }
 
 res=0
 
-### I/O TEST ###
-out=$(seq 5 | ./plus)
-[ "${out}" = 15.0 ] || ng ${LINENO}
+#1/0test#
+out=$(./calculate)
+[ "${out}" = "56, 1.0, 720" ] || ng ${LINENO}
 
-### STRANGE INPUT ###
+[ "$res" = 0 ] && echo OK
+exit $res
+
+# strange imput #
 out=$(echo あ | ./plus)
 [ "$?" = 1 ]      || ng ${LINENO}
-[ "${out}" = "" ] || ng ${LINENO}
-
+[ "${out}" = "" ] || ng ${LINENO} 
+	        　
 out=$(echo | ./plus)
 [ "$?" = 1 ]      || ng ${LINENO}
 [ "${out}" = "" ] || ng ${LINENO}
-
-
+		      　
 [ "$res" = 0 ] && echo OK
-   exit $res
-
-
-
-
-
-
-
-[ "res" =  0 ] && echo OK
 exit $res
