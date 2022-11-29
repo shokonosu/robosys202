@@ -2,7 +2,7 @@
 * ロボットシステム学の練習リポジトリ 
 * install
 ```
-$ git@github.com:shokonosu/robosys202.git
+$ git clone https://github.com/shokonosu/robosys202
 $ cd robosys202
 ```
 # plusコマンド
