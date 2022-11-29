@@ -2,10 +2,7 @@
 # SPDX-FileCopyrightText: 2022 Sho Konosu
 # SPDX-License-Identifier: BSD-3-Clause
 
-ng () {
-echo NG at Line $1
-res=1
-}
+ng () 
 
 res=0
 
