@@ -15,15 +15,3 @@ out=$(./calculate)
 
 [ "$res" = 0 ] && echo OK
 exit $res
-
-# strange imput #
-out=$(echo あ | ./calculate)
-[ "$?" = 1 ]      || ng ${LINENO}
-[ "${out}" = "" ] || ng ${LINENO} 
-	        　
-out=$(echo | ./calculate)
-[ "$?" = 1 ]      || ng ${LINENO}
-[ "${out}" = "" ] || ng ${LINENO}
-				      　
-[ "$res" = 0 ] && echo OK
-exit $res
