@@ -6,7 +6,6 @@ ng () {
       res=0
 }
 
-
 ### 1/0 TEST ###
 out=$(./calculate)
 [ "${out}" = "56 1.0 720" ] || ng ${LINENO}
