@@ -23,13 +23,13 @@ $ ./calculate
 ```
 ## 必要なソフトウェア
 * os
- * Ubuntu(Ubuntu18.04)
+  * Ubuntu(Ubuntu18.04)
   * [ダウンロード](https://jp.ubuntu.com/download)
 * Python
   * テスト済み:3.7～3.10
 
-## テスト環境
-* Ubuntu
+## 動作確認済みのテスト環境
+* Ubuntu(Ubuntu18.04)
 
 ## LICENSE
 * このソフトウェアパッケージは、3条項BSDライセンスのもと、再配布及び使用が許可されています。
