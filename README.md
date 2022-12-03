@@ -15,6 +15,7 @@ $ seq 5 | ./plus
 15
 ```
 # calculateコマンド
+![Newtest](https://github.com/shokonosu/robosys202/actions/workflows/Newtest.yml/badge.svg)
 * 優先順位による計算プログラムと6の階乗を求める
 * [calculate](https://github.com/shokonosu/robosys202/blob/main/calculate)
 * 使い方はchmod +x calculateを入力したうえで、./calculateとコマンドを打つ
