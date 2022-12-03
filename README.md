@@ -26,7 +26,7 @@ $ ./calculate
 ## 必要なソフトウェア
 * os
   * Ubuntu(Ubuntu18.04)
-  * [ダウンロード](https://jp.ubuntu.com/download)
+
 * Python
   * テスト済み:3.7～3.10
 
