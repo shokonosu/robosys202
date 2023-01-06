@@ -10,10 +10,15 @@ def tonum(s):
         return float(s)
 
 
-ans = 0
+ans1 = 0
+ans2 = 1
+ans3 = 0
 for line in sys.stdin:
     line = line.rstrip()
-    ans += float(line)
+    ans1 += float(line)
+    ans2 *= float(line)
+    ans3 -= float(line)
 
-
-print(ans)
+print(ans1)
+print(ans2)
+print(ans3)

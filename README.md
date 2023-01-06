@@ -5,23 +5,13 @@
 $ git clone https://github.com/shokonosu/robosys202
 $ cd robosys202
 ```
-# plusコマンド
-![test](https://github.com/shokonosu/robosys202/actions/workflows/test.yml/badge.svg)
-標準入力から読み込んだ数字を足す。
+# plusコマンド(加筆済み)
+標準入力から読み込んだ数字の加法・減法・乗法を行う。
 * [plus](https://github.com/shokonosu/robosys202/blob/main/plus)
 * 使い方はseq 5 | ./plusとコマンドを打つ。
 ```
 $ seq 5 | ./plus
-15
-```
-# calculateコマンド
-![Newtest](https://github.com/shokonosu/robosys202/actions/workflows/Newtest.yml/badge.svg)
-* 優先順位による計算プログラムと6の階乗を求める
-* [calculate](https://github.com/shokonosu/robosys202/blob/main/calculate)
-* 使い方はchmod +x calculateを入力したうえで、./calculateとコマンドを打つ
-```
-$ ./calculate
-56 1.0 720  #計算結果
+15 120 -15
 ```
 ## 必要なソフトウェア
 * os
