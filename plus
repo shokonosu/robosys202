@@ -19,6 +19,4 @@ for line in sys.stdin:
     ans2 *= float(line)
     ans3 -= float(line)
 
-print(ans1)
-print(ans2)
-print(ans3)
+print(ans1,ans2,ans3)
