@@ -1,3 +1,4 @@
+![test](https://github.com/shokonosu/robosys202/actions/workflows/test.yml/badge.svg)
 # robosys202
 * ロボットシステム学の練習リポジトリ 
 * install
